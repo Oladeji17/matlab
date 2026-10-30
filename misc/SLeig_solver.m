@@ -9,7 +9,7 @@ function [Ce,phi_w,phi_p,phi_w_surf,phi_p_surf] = SLeig_solver(N2,zf,fs)
 %% input
 % N2 represents the Brunt Vaisala frequency vector (top to bottom) - mapped
 % to layer faces
-% zf represents layer faces' z-level vector (approaches -inf with increase in depth). zf(1) = 0;
+% zf represents layer faces' z-level vector (approaches -inf with increase in depth).
 % fs surface boundary condition: 0 = rigid lid (default), 1 = free surface
 % ** for accuracy, N2 and zf should be double-precision **
 %% output
